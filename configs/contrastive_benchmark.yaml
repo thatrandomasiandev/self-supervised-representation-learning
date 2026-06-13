@@ -1,0 +1,10 @@
+models: [SimCLR]
+n_samples_list: [2000, 4000]
+n_features: 32
+n_clusters: 5
+cluster_separation: 3.0
+nuisance_dim: 8
+train_ratio: 0.7
+val_ratio: 0.15
+temperature: 0.5
+seeds: [42, 43]

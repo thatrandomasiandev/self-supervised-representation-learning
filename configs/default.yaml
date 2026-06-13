@@ -1,0 +1,9 @@
+seed: 42
+seeds: [42, 43]
+epochs: 80
+batch_size: 256
+lr: 0.001
+hidden_dim: 128
+n_layers: 2
+dropout: 0.1
+projection_dim: 64

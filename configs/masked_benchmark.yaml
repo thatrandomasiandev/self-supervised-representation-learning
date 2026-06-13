@@ -1,0 +1,9 @@
+models: [MaskedAE]
+n_samples_list: [3000]
+observed_dim: 48
+latent_dim: 8
+noise_std: 0.15
+mask_ratio: 0.4
+train_ratio: 0.7
+val_ratio: 0.15
+seeds: [42, 43]

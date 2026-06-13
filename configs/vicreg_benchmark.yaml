@@ -1,0 +1,12 @@
+models: [VICReg]
+n_samples_list: [2000, 4000]
+n_features: 32
+n_clusters: 5
+cluster_separation: 3.0
+nuisance_dim: 8
+train_ratio: 0.7
+val_ratio: 0.15
+sim_coeff: 25.0
+var_coeff: 25.0
+cov_coeff: 1.0
+seeds: [42, 43]
