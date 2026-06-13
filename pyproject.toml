@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ssl-repr"
 version = "0.1.0"
-description = "PhD-level self-supervised representation learning: contrastive, masked, and VICReg"
+description = "Research benchmarks for contrastive learning, masked autoencoding, and VICReg"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
