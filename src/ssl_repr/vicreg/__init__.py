@@ -1,3 +1,29 @@
-from ssl_repr.vicreg.trainer import VICRegResult, VICRegTrainConfig, fit_vicreg
+from ssl_repr.vicreg.trainer import (
+    BarlowTwinsResult,
+    BarlowTwinsTrainConfig,
+    BarlowTwinsTrainer,
+    VICRegModel,
+    VICRegResult,
+    VICRegTrainConfig,
+    barlow_twins_loss,
+    covariance_loss,
+    fit_vicreg,
+    invariance_loss,
+    variance_loss,
+    vicreg_loss_decomposed,
+)
 
-__all__ = ["VICRegResult", "VICRegTrainConfig", "fit_vicreg"]
+__all__ = [
+    "BarlowTwinsResult",
+    "BarlowTwinsTrainConfig",
+    "BarlowTwinsTrainer",
+    "VICRegModel",
+    "VICRegResult",
+    "VICRegTrainConfig",
+    "barlow_twins_loss",
+    "covariance_loss",
+    "fit_vicreg",
+    "invariance_loss",
+    "variance_loss",
+    "vicreg_loss_decomposed",
+]
